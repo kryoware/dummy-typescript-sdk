@@ -1,0 +1,32 @@
+{
+  "name": "@iaybgu/petstore-sdk",
+  "version": "0.1.2",
+  "description": "TypeScript client for the OpenAPI Petstore",
+  "author": "Baldwin John Sumatra",
+  "license": "MIT",
+  "homepage": "https://github.com/kryoware/dummy-typescript-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryoware/dummy-typescript-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kryoware/dummy-typescript-sdk/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/esm/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0 || ^5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
