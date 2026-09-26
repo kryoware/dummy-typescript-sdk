@@ -4,9 +4,11 @@ LICENSE
 README.md
 docs/Category.md
 docs/ModelApiResponse.md
+docs/NoteApi.md
 docs/Order.md
 docs/Pet.md
 docs/PetApi.md
+docs/PetNote.md
 docs/Review.md
 docs/ReviewApi.md
 docs/StoreApi.md
@@ -16,6 +18,7 @@ docs/UserApi.md
 docs/WishlistApi.md
 docs/WishlistItem.md
 package.json
+src/apis/NoteApi.ts
 src/apis/PetApi.ts
 src/apis/ReviewApi.ts
 src/apis/StoreApi.ts
@@ -27,6 +30,7 @@ src/models/Category.ts
 src/models/ModelApiResponse.ts
 src/models/Order.ts
 src/models/Pet.ts
+src/models/PetNote.ts
 src/models/Review.ts
 src/models/Tag.ts
 src/models/User.ts
